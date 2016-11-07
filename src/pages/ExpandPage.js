@@ -53,7 +53,7 @@ export default class ExpandPage extends Component {
   render() {
     const menu_moveY = this.y_translate.interpolate({
       inputRange: [0, 1],
-      outputRange: [1, -300]
+      outputRange: [0, -300]
     });
     
     return (

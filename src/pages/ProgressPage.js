@@ -62,7 +62,7 @@ export default class ProgressPage extends Component {
         <View style={styles.container}>
           <View style={styles.progress_container}>
             <Animated.View
-              style={[styles.progress_bar, this.getProgressStyles.call(this)]}
+              style={[this.getProgressStyles.call(this)]}
             > 
             </Animated.View>
           </View>

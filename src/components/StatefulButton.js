@@ -75,7 +75,6 @@ export default class StatefulButton extends Component {
 
 const styles = StyleSheet.create({
 	button_container: {
-		
 		flexDirection: 'row',
 		alignItems: 'center',
 		backgroundColor: '#2196f3'

@@ -79,7 +79,7 @@ export default class NewsPage extends Component {
 		this.setState({is_news_refreshing: true});
 		setTimeout(() => {
 			this.setState({is_news_refreshing: false});
-		}, 3000);
+		}, 3500);
 	}
 
 	render() {

@@ -53,7 +53,6 @@ export default class AttentionSeekerPage extends Component {
   render() {
     return (
       <View style={styles.container}>
-
         <View style={styles.row}>
           { this.renderBoxes(0) }
         </View>
